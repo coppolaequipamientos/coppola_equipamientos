@@ -13,6 +13,10 @@ function parseCSV(text) {
     return obj;
   });
 }
+    headers.forEach((h, i) => obj[h] = values[i] ?? "");
+    return obj;
+  });
+}
   const lines = text.trim().split("\n");
   const headers = lines[0].split(",").map(h => h.trim());
   return lines.slice(1).map(line => {
@@ -57,5 +61,6 @@ async function cargarCatalogo() {
     `;
   }).join("");
 }
+
 
 cargarCatalogo();
