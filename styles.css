@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: white;
+    width: 280px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.precio {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    .ubicacion{
+        margin-top: 5px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #ccccc;
+    }
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 250px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.precio {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sobre {
+    background-color: white;
+    padding: 40px;
+    margin-top: 20px;
+}
+.sobre h2 {
+    margin-bottom: 15px;
+}
+.sobre p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+.mapa {
+    padding: 60px 20px;
+background-color: #f4f4f4;
+text-align: center;
+}
+.mapa iframe {
+    max-width: 900px;
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.mapa h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.mapa-contenedor {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.mapa-contenedor iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.producto {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+.envios {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
